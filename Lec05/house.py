@@ -12,7 +12,7 @@ def draw_house(x, y, width, height):
     positioned in the bottom of the base.
     :param x: coordinate x of half of width
     :param y: coordinate y of bottom of base
-    :param witdth: full width
+    :param width: full width
     :param height: full height
     :return:
     """
@@ -28,14 +28,41 @@ def draw_house(x, y, width, height):
 
 
 def draw_house_foundation (x, y, width, height):
+    """
+    Function that draws a hose basement
+    :param x: coordinate x of half of width
+    :param y: coordinate y of bottom of basement
+    :param width: full width
+    :param height: full height
+    :return:
+    """
+    print('Drawing house basement', x, y, width, height )
     pass
 
 
 def draw_house_walls(x, y, width, height):
+    """
+    Function draws house walls
+    :param x:
+    :param y:
+    :param width:
+    :param height:
+    :return:
+    """
+    print('Drawing house walls', x, y, width, height)
     pass
 
 
 def draw_house_roof(x, y, width, height):
+    """
+    Function draws house roof
+    :param x:
+    :param y:
+    :param width:
+    :param height:
+    :return:
+    """
+    print('Darwing house roof', x, y, width, height)
     pass
 
 
