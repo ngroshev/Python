@@ -1,0 +1,9 @@
+import time
+print('What is your name?')
+name = input()
+print('Hello, ', name,'!')
+time.sleep(5)
+print('How old are you?')
+age = int(input())
+print('I thought you were', age + 1, 'years!...')
+time.sleep(5)
