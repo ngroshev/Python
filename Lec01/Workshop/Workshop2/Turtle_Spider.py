@@ -15,7 +15,7 @@ def spider(i, size):
 
 def main():
     size = 100
-    i = 12
+    i = 24
     spider(i, size)
 
 
